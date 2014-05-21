@@ -1,0 +1,122 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+body {
+  background: url('../images/classy_fabric.png');
+}
+
+#header-wrapper {
+  height: 100%;
+  max-height: 900px;
+  background-image: url('../images/get-ready.jpg');
+  padding: 80px 0 80px 0;
+  margin-bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.region-content {
+  padding-top: 100px;
+  background: #fff;
+}
+
+#message-wrapper {
+  background: #fff;
+}
+
+#navbar-wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.wrapper {
+  padding-bottom: 40px;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+.inverse-wrapper {
+  color: #fff;
+  background: url('../images/classy_fabric.png');
+}
+
+.inverse-wrapper .lead {
+  color: #fff;
+}
+
+.fa-6x {
+  font-size: 10em;
+}
+
+#footer-wrapper {
+  margin-top: 50px;
+  padding-top: 50px;
+  min-height: 400px;
+}
+
+#footer-wrapper a {
+  color: #fff;
+}
+
+#footer-wrapper a:hover {
+  color: #00526e;
+}
+
+/*
+body.front {
+  background: url('../images/classy_fabric.png');
+}
+body.front #get-ready-wrapper {
+  background: url('../images/beerfest-hipster-filter-bw.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 15% 0 15% 0;
+}
+
+body.front h1 {
+  color: #cccc00;
+  font-size: 700%;
+  text-align: center;
+  text-shadow: 1px 1px 10px #000;
+}
+
+body.front h2 {
+  color: #fff;
+  font-size: 300%;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 1px 1px 10px #000;
+}
+
+body.front h3 {
+  color: #fff;
+  font-size: 300%;
+  text-transform: uppercase;
+  text-align: right;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.footer {
+  border: none;
+}
+
+#footer-wrapper {
+}
+*/

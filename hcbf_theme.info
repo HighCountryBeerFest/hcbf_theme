@@ -1,0 +1,11 @@
+name = High Country Beer Fest
+description = A theme for the High Country Beer Fest website.
+core = 7.x
+version = 7.x-1.x
+base theme = bootstrap
+
+regions[navigation]     = 'Navigation'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+
+stylesheets[all][] = css/style.css
