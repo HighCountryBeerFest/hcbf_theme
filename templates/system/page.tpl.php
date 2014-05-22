@@ -78,14 +78,14 @@
     <div class="row">
       <div class="col-xs-12 text-center">
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img class="logo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+          <img class="img-responsive center-block" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a>
       </div>
     </div>
   </div>
 </header>
 
-<nav id="navbar-wrapper" class="navbar navbar-default navbar-static-top" data-spy="affix" data-offset-top="395">
+<nav id="navbar-wrapper" class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -94,14 +94,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/"><?php print $site_name; ?></a>
     </div>
     <div class="collapse navbar-collapse" id="main-menu">
-      <ul class="nav navbar-nav navbar-right">
-        <?php if (!empty($primary_nav)): ?>
-          <?php print render($primary_nav); ?>
-        <?php endif; ?>
-      </ul>
+      <?php print $primary_navigation; ?>
     </div>
   </div>
 </nav>
