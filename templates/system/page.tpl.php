@@ -73,6 +73,31 @@
  * @ingroup themeable
  */
 ?>
+<div id="primary-navbar" role="banner" class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <p class="navbar-brand hidden-xs" id="navbar-dates">August 30<sup>th</sup>, 2014 3:00pm - 7:00pm</p>
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".primary-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <?php if (!empty($primary_nav)): ?>
+      <div class="navbar-collapse collapse primary-nav">
+        <nav role="navigation">
+          <?php if (!empty($primary_nav)): ?>
+            <?php print render($primary_nav); ?>
+          <?php endif; ?>
+        </nav>
+      </div>
+    <?php endif; ?>
+  </div>
+</div>
+
 <header id="header-wrapper" class="wrapper">
   <div class="container">
     <div class="row">
@@ -88,6 +113,7 @@
 <nav id="navbar-wrapper" class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
+      <p class="navbar-brand hidden-xs" id="navbar-description">Benefit/Fundraiser for the ASU Fermentation Sciences</p>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -140,7 +166,8 @@
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-6">
-        <p>The <?php print $site_name; ?> is a part of <a href="http://ivorytowerscience.com/" title="Ivory Tower Science">Ivory Tower Science</a>, a research based non-profit that directly supports student scholarships and academic research in Fermentation Sciences.</p>
+        <p>The <?php print $site_name; ?> is hosted by <a href="http://ivorytowerscience.com/" title="Ivory Tower, Inc.">Ivory Tower, Inc.</a>, a research based non-profit that directly supports student scholarships and academic research in Fermentation Sciences at ASU.</p>
+        <p>This is a 100% non-profit event. Our primary beneficiary of the event is <a href="http://fermentation.appstate.edu/" title="ASU Fermentation Sciences">ASU Fermentation Sciences</a>, but we also support other local non-profit organizations, including <a href="http://www.highcountrylocalfirst.org/" title="High Country Local First">High Country Local First</a>, <a href="http://www.highcountrymommies.com/" title="High Country Mommies">High Country Mommies</a>, <a href="http://www.middleforkgreenway.org/">Blue Ridge Conservancy-Middle Fork Greenway Association</a>, <a href="http://mountainalliance.org/">The Mountain Alliance</a>, and <a href="http://ivorytowerscience.com/" title="Ivory Tower, Inc">Ivory Tower, Inc</a>.</p>
       </div>
       <div class="col-xs-12 col-sm-3">
         <h3>Get involved</h3>

@@ -35,6 +35,7 @@ body.front .region-content {
 
 .region-content {
   background: #fff;
+  padding-bottom: 50px;
 }
 
 body.not-front #message-wrapper {
@@ -56,6 +57,19 @@ body.not-front #message-wrapper {
 }
 
 #navbar-wrapper {
+  margin-bottom: 0;
+}
+
+#navbar-dates {
+  margin-bottom: 0;
+}
+
+#navbar-description {
+  padding-top: 22px;
+  padding-bottom: 11px;
+}
+
+#primary-navbar {
   margin-bottom: 0;
 }
 
