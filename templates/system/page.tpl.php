@@ -73,10 +73,10 @@
  * @ingroup themeable
  */
 ?>
-<div id="primary-navbar" role="banner" class="navbar navbar-default">
+<div id="primary-navbar" role="banner" class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <p class="navbar-brand hidden-xs" id="navbar-dates">August 29<sup>th</sup>, 2015</p>
+      <a href="/" class="navbar-brand">High Country Beer Fest | 8/29/2015</a>
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".primary-nav">
         <span class="sr-only">Toggle navigation</span>
@@ -113,17 +113,11 @@
 <nav id="navbar-wrapper" class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
-      <p class="navbar-brand hidden-xs" id="navbar-description">Benefit/Fundraiser for the ASU Fermentation Sciences</p>
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+      <p class="navbar-brand" id="navbar-description">Benefit/Fundraiser for the ASU Fermentation Sciences</p>
     </div>
-    <div class="collapse navbar-collapse" id="main-menu">
-      <?php print $primary_navigation; ?>
-    </div>
+      <div class="hidden-xs">
+        <?php print $primary_navigation; ?>
+      </div>
   </div>
 </nav>
 

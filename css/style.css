@@ -14,9 +14,7 @@ p {
 
 #header-wrapper {
   height: 100%;
-  max-height: 900px;
-  background-image: url('../images/get-ready.jpg');
-  padding: 80px 0 80px 0;
+  background-image: url('../images/header-img-1.jpg');
   margin-bottom: 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -25,8 +23,39 @@ p {
   background-position: center;
 }
 
+body.front #header-wrapper {
+  max-height: 900px;
+  padding: 125px 0 80px 0;
+}
+
+body.not-front #header-wrapper {
+  max-height: 900px;
+  padding: 55px 0 10px 0;
+}
+
+body.page-breweries #header-wrapper {
+  background-image: url('../images/beerfest-hipster-filter-bw.jpg');
+}
+
+body.page-blog #header-wrapper {
+  background-image: url('../images/header-img-2.jpg');
+}
+
 .form-required {
   color: #f00;
+}
+
+label {
+  font-size: 15px;
+}
+
+form div.description {
+  font-size: 12px;
+}
+
+form div.form-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 body.front .region-content {
